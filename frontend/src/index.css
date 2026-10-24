@@ -1,0 +1,9 @@
+:root { font-synthesis: none; text-rendering: optimizeLegibility; }
+body { margin: 0; }
+#root { min-height: 100vh; }
+button, input { font: inherit; }
+button:disabled { opacity: .55; cursor: not-allowed; }
+button:focus-visible, input:focus-visible { outline: 3px solid #fca5a5; outline-offset: 3px; }
+.input-group { display: block; }
+.dark-panel p { margin: 12px 0; }
+@media (max-width: 760px) { .main-header { flex-wrap: wrap; gap: 16px; } .nav-group { flex-wrap: wrap; } }
